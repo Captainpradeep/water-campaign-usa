@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rapidrestoreusa.com/sitemap.xml
+Sitemap: https://stopfloodusa.wuaze.com/sitemap.xml

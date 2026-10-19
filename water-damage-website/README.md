@@ -1,70 +1,65 @@
-# RapidRestore USA — Water Damage Restoration Website
+# Stop Flood USA — Water Damage Restoration Website (SEO Package v2)
 
-A professional, conversion-focused, SEO-ready website for the US water damage
-pay-per-call offer.
+Professional, conversion-focused, SEO-ready website for the US water damage
+pay-per-call offer. Branded **Stop Flood USA**, deployed at
+https://stopfloodusa.wuaze.com/
 
 ## What's inside
 
-- `index.html` — the complete website (single file, inline CSS/JS)
-- `assets/` — 4 unique, custom-made images:
-  - `hero-water-damage.webp` — hero banner (technician extracting flood water)
-  - `flooded-basement.webp` — urgency section (flooded basement)
-  - `drying-equipment.webp` — drying process section (air movers + dehumidifier)
-  - `technician-homeowner.webp` — trust section (technician with homeowners)
-- `robots.txt` — search engine crawling rules
-- `sitemap.xml` — sitemap for Google / Bing
+- `index.html` — homepage (hero, services, process, areas, guides, FAQ, CTAs)
+- 4 city SEO pages:
+  - `water-damage-restoration-houston-tx.html`
+  - `water-damage-restoration-miami-fl.html`
+  - `water-damage-restoration-atlanta-ga.html`
+  - `water-damage-restoration-phoenix-az.html`
+- 4 guide articles (long-tail keywords):
+  - `what-to-do-when-basement-floods.html`
+  - `water-damage-restoration-cost.html`
+  - `does-homeowners-insurance-cover-water-damage.html`
+  - `how-to-prevent-mold-after-water-damage.html`
+- `assets/` — 4 unique custom images (hero, flooded basement, drying equipment, technician)
+- `robots.txt`, `sitemap.xml` (9 URLs), `build_pages.py` (page generator)
 
 ## Phone number
 
-The rented tracking number **(888) 217-3489** (`tel:+18882173489`) is pasted
-in every call-to-action: top bar, header, hero, sections, final CTA, footer
-and the sticky mobile call button.
+Tracking number **(888) 217-3489** (`tel:+18882173489`) in every CTA on all
+9 pages: top bar, header, hero, content callboxes, final CTA, footer, sticky
+mobile call button.
 
-## Disclaimers (required by the offer)
+## Disclaimers (required by the offer — do NOT remove)
 
-Both required disclaimers are in the footer:
-1. The "free service / independent contractors / actors or models" disclaimer.
-2. The "same-day and 24/7 services subject to availability" disclaimer
-   (required because the site uses "24/7" and "same-day" language).
+Both required disclaimers are in the footer of every page:
+1. Free service / independent contractors / actors-or-models disclaimer.
+2. Same-day & 24/7 availability disclaimer (site uses "24/7" and "same-day" language).
 
-Do NOT remove them — the offer requires them at the bottom of the site.
+## SEO built in
 
-## Built-in SEO
+- Keyword-optimized titles, meta descriptions, single H1 per page
+- JSON-LD: EmergencyService + Service (city pages) + FAQPage + WebPage
+- Canonical URLs → https://stopfloodusa.wuaze.com/
+- Open Graph / Twitter cards, semantic HTML, alt text on images
+- Internal linking: homepage ↔ city pages ↔ guides; sitemap.xml with 9 URLs
+- Mobile-responsive, fast static pages
 
-- Keyword-optimized title tag, meta description & headings
-- Semantic HTML5, single H1, descriptive alt text on all images
-- JSON-LD structured data: EmergencyService, WebSite, FAQPage (rich snippets)
-- Open Graph + Twitter cards for social sharing
-- Canonical URL, robots meta, geo meta tags (US)
-- Mobile-responsive, fast single-file page (Core Web Vitals friendly)
-- FAQ content targeting long-tail keywords ("cost", "insurance", "mold"...)
+## Deploy
 
-## Deploy (important)
+Upload ALL files to hosting root, keeping structure (`assets/` folder as-is).
+Nothing to configure — it's pure static HTML.
 
-1. Buy/connect your domain (e.g. `rapidrestoreusa.com`).
-2. Upload ALL files keeping the folder structure:
-   - `index.html` → domain root
-   - `assets/` → domain root
-   - `robots.txt`, `sitemap.xml` → domain root
-3. **Replace the placeholder domain** `https://www.rapidrestoreusa.com/` with
-   your real domain in: `index.html` (canonical, og:url, og:image,
-   twitter:image, JSON-LD `url`/`image`), `robots.txt`, `sitemap.xml`.
-4. Keep the images' file names — they are keyword-descriptive.
+## After upload — free SEO launch steps (30 min)
 
-## SEO launch checklist
+1. **Google Search Console**: add property `https://stopfloodusa.wuaze.com/`,
+   verify (HTML file or DNS), submit `sitemap.xml`, then URL Inspection →
+   "Request indexing" for the homepage + each new page.
+2. **Bing Webmaster Tools**: same steps (covers Bing, Yahoo, DuckDuckGo).
+3. Share the clean URL (without `?i=1`) everywhere.
+4. Backlinks (only allowed kinds): free business directories, helpful answers
+   on Quora/Reddit linking to guides. NEVER use: Craigslist/classifieds ads,
+   FB Marketplace, SMS, incentivized traffic, GMB — the offer prohibits these.
 
-- [ ] Submit the domain in **Google Search Console**, verify, submit sitemap.xml
-- [ ] Submit the sitemap in **Bing Webmaster Tools** (covers Bing/Yahoo/DuckDuckGo)
-- [ ] Request indexing of the homepage in Search Console
-- [ ] Allowed traffic per the offer: **SEO + Paid Search only**
-- [ ] Prohibited (do NOT use): FB Marketplace, SMS, incentivized, Coreg,
-      traffic exchanges, click farms, classifieds/Craigslist, GMB
-- [ ] Replace the 3 sample testimonials with real ones when you have them
-- [ ] Consider adding city-specific pages later (e.g. /houston-tx/) for local SEO
+## Offer compliance (from the offer page — internal reference)
 
-## Offer compliance notes (from the offer page — keep for reference)
-
-- Call hours: Mon–Sun, 10:00 AM – 2:00 AM EST (shown in footer)
-- Qualified call = caller interested in new water damage service within the
-  service area (all restoration service types; no customer-service/billing calls)
-- Never publish payout, cap or hold-period details on the site
+- Call hours: Mon–Sun, 10:00 AM – 2:00 AM EST (in footer)
+- Qualified call = new-service caller in service area (no customer-service/billing calls)
+- Allowed traffic: SEO + Paid Search only
+- Never publish payout, cap, concurrency or hold-period details
